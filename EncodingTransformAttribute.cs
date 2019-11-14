@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Text;
 using System;
 
-namespace Base64
+namespace PSTextUtils
 {
     class EncodingTransformAttribute : ArgumentTransformationAttribute
     {
@@ -41,7 +41,7 @@ namespace Base64
             }
         }
 
-        public override string ToString() 
+        public override string ToString()
         {
             return "[EncodingTransformAttribute]";
         }
