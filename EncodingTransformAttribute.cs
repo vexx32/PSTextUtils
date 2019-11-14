@@ -7,7 +7,7 @@ using System;
 
 namespace PSTextUtils
 {
-    class EncodingTransformAttribute : ArgumentTransformationAttribute
+    public class EncodingTransformAttribute : ArgumentTransformationAttribute
     {
         public EncodingTransformAttribute() { }
         internal static Dictionary<string, Encoding> StandardEncoding = new Dictionary<string, Encoding>()
@@ -47,7 +47,7 @@ namespace PSTextUtils
         }
     }
 
-    class EncodingCompleter : IArgumentCompleter
+    public class EncodingCompleter : IArgumentCompleter
     {
         public EncodingCompleter() { }
         public IEnumerable<CompletionResult> CompleteArgument(
