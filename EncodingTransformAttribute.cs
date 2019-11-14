@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Text;
 using System;
 
-namespace Base64
+namespace PSTextUtils
 {
     class EncodingTransformAttribute : ArgumentTransformationAttribute
     {
